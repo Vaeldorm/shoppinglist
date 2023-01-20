@@ -2,11 +2,32 @@
 # def main():
 
 # for loop to update ingredients
-def update_list(dish):
-    for item in dish:
-        if item == "chicken":
+def update_count(dishes[]):
+    for dish in dishes:
+        if dish == "Chicken":
             chicken_count += 1
-        elif item == "ground_beef":
+        elif dish == "Ground Beef":
             ground_beef_count += 1
 
+# get selection from user
+def get_dish():
+    print(f"Please choose a number:")
+    for dish in dishes:
+        print(dish["number"], dish["name"], sep=(" "))
+    return int(input())
+    
+# main dict 
+# "name":"dish", "ingredient1": "item", "ingredient2": "item", "ingredient3": "item", "ingredient4": "item", "ingredient4": "item"
+dishes = [
+    {"number": 1, "name": "Cajun Chicken Pasta", "ingredient1": "Chicken", "ingredient2": "Pasta", "ingredient3": "Red Bell Pepper", "ingredient4": "Green Bell Pepper", "ingredient4": "Cherry Tomatoes"},
+    {"number": 2, "name":"Pesto Chicken Pasta", "ingredient1": "Chicken", "ingredient2": "Pasta", "ingredient3": "Basil", "ingredient4": "Pine Nuts", "ingredient4": "Cherry Tomatoes", "ingredient5": "Parmesan Cheese", "ingredient6": "Garlic"}
+]
+
+selection = get_dish()
 chicken_count = 0
+ground_beef_count = 0
+
+# Test
+# print(selection)
+
+
