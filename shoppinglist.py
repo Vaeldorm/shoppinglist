@@ -2,7 +2,7 @@
 # def main():
 
 # for loop to update ingredients
-def update_count(selection):
+def update_count(placeholder):
     for dish in dishes:
         if dish == "Chicken":
             chicken_count += 1
