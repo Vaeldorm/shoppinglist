@@ -2,7 +2,7 @@
 # def main():
 
 # for loop to update ingredients
-def update_count(dishes[]):
+def update_count(selection):
     for dish in dishes:
         if dish == "Chicken":
             chicken_count += 1
@@ -11,7 +11,7 @@ def update_count(dishes[]):
 
 # get selection from user
 def get_dish():
-    print(f"Please choose a number:")
+    print("Please choose a number:")
     for dish in dishes:
         print(dish["number"], dish["name"], sep=(" "))
     return int(input())
