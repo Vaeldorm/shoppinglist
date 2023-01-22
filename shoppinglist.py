@@ -70,7 +70,20 @@ def main():
                 "Corn",
                 "Diced Green Chiles",
             ]
-},
+        },
+        {
+            "Chicekn Spaghetti": [
+                "Chicken",
+                "Pasta",
+                "Chicken Broth",
+                "Velveeta",
+                "Chicken and Mushroom Soup",
+                "Chicken and Celery Soup",
+                "Celery",
+                "Green Bell Pepper",
+                "Onion",
+            ]
+        },
     ]
     print_menu(dishes)
 
