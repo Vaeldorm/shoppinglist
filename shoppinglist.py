@@ -72,7 +72,7 @@ def main():
             ]
         },
         {
-            "Chicekn Spaghetti": [
+            "Chicken Spaghetti": [
                 "Chicken",
                 "Pasta",
                 "Chicken Broth",
@@ -83,6 +83,18 @@ def main():
                 "Green Bell Pepper",
                 "Onion",
             ]
+        },
+        {
+            "Spicy Sausage and Rice": [
+                "Spicy Sausage or Chorizo",
+                "Rice",
+                "Tomatoes",
+                "Chicken Stock",
+                "White Wine (deglaze)",
+                "Red Bell Pepper",
+                "Garlic",
+                "Paprika",
+                "Spring Onion"
         },
     ]
     print_menu(dishes)
